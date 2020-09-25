@@ -1,3 +1,31 @@
+/* =========================================
+CSS additionnel
+==========================================*/
+.accroche-paragraph {
+    font-size: 1.45em;
+    font-weight: bold;
+    max-width: 613px;
+    margin: auto;
+}
+
+.reference-quote {
+    border: none;
+}
+
+.reference-quote__text {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.realisations-heading {
+    font-size: 1.6em;
+}
+
+
+
+/* =========================================
+CSS initial
+==========================================*/
 body {
     margin: 0;
     padding: 0;
