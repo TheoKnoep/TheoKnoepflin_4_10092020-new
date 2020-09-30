@@ -34,6 +34,10 @@ a:focus, button:focus {
     font-size: 1.4em; 
 }
 
+.accessible-hidden-link {
+    position: absolute;
+    left:-2099px;
+}
 
 /* =========================================
 CSS initial
