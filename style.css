@@ -45,12 +45,24 @@ a:focus, button:focus {
 }
 
 .light-bg {
-    background-color: rgba(255,255,255,0.8); 
     color: black; 
 }
 
 .shadow-text {
     text-shadow: 1px 1px 2px black;
+}
+
+
+.white-card-bg {
+    background-color: rgba(255,255,255,0.6); 
+    padding: 2em 0; 
+    border-radius: 25px; 
+}
+
+@media screen and (max-width: 991px) {
+    .white-card-bg {
+        border-radius: 0;
+    }
 }
 
 /* =========================================
